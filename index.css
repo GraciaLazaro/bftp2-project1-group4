@@ -6,6 +6,19 @@ header {
     height: 200px;
 }
 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 300px 0px 300px;
+    padding-top: 25px;
+    list-style: none;
+}
+
+h2{
+    text-align: center;
+}
 .quienes {
     background-color: grey;
     height: 300px;
@@ -17,9 +30,8 @@ header {
 }
 
 .trabajos{
-    background-color: rgb(133, 9, 9);
-    height: 100px;
-    color:teal; 
+    background-color: aquamarine;
+    height: 300px;
 }
 
 footer{
