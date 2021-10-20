@@ -1,3 +1,32 @@
-body{
-    background-color: red;
+
+
+header {
+    background-color: #0f1014;
+    color:white; 
+    height: 200px;
 }
+
+.quienes {
+    background-color: grey;
+    height: 300px;
+}
+
+.servicios{
+    background-color: white;
+    height: 300px;
+}
+
+.trabajos{
+    background-color: rgb(133, 9, 9);
+    height: 100px;
+    color:teal; 
+}
+
+footer{
+    background-color: black;
+    height:200px; 
+    color: white;
+}
+
+
+
