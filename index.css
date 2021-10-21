@@ -1,7 +1,7 @@
 
 
 header {
-    background-color: #0f1014;
+    background-color: black;
     color:white; 
     height: 200px;
 }
@@ -16,10 +16,8 @@ nav ul{
     list-style: none;
 }
 .logotipo{
-
-display: flex;
-justify-content: center;
-padding: 0px 0px 0px 100px; 
+display:flex;
+justify-content: center;    
 }
 h2{
     text-align: center;
