@@ -30,12 +30,12 @@ h2{
 }
 
 .trabajos{
-    background-color: aquamarine;
+    background-color: gray;
     height: 300px;
 }
 
 footer{
-    background-color:red;
+    background-color: black;
     height:200px; 
     color: white;
 }
