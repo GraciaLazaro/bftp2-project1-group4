@@ -15,7 +15,12 @@ nav ul{
     padding-top: 25px;
     list-style: none;
 }
+.logotipo{
 
+display: flex;
+justify-content: center;
+padding: 0px 0px 0px 100px; 
+}
 h2{
     text-align: center;
 }
