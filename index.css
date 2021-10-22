@@ -1,24 +1,28 @@
+*{
+    width: 100%; 
+    margin: 0 auto; 
 
+}
 
 header {
     background-color: black;
     color:white; 
     height: 200px;
 }
-p{
-    width:90vw; 
-}
+
 
 img{
     width:200px;
     border-radius:100px; 
+    display: flex;
+    flex-direction: row;
 }
 
 nav ul{
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    align-items: center;
+    /*align-items: center;*/
     margin: 0px 300px 0px 300px;
     padding-top: 25px;
     list-style: none;
@@ -30,12 +34,32 @@ justify-content: center;
 }
 h2{
     text-align: center;
+    padding-top: 30px;
 }
 .quienes {
     background-color: grey;
     height: 600px; 
 }
 
+.pquienes{
+    text-align:justify;
+    padding: 20px 35px 20px 35px;
+}
+.fila1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fila2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
 .servicios{
     background-color: white;
     height: 300px;
