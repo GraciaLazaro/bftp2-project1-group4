@@ -53,7 +53,7 @@ h2{
 
 .quienes {
     background-color:#a8a8a8;
-    height: 825px;
+    height: 900px;
 }
 
 .pquienes{
@@ -99,16 +99,12 @@ span{
     display: inline;
     margin-right: 50px;
 }
-.fotoAna{
-    width: 200px;
+.fotocoder{
+    width: 250px;
     border-radius: 100%;
     padding: 0px 0px 0px 0px;
 }
-.fotoValentina{
-    width: 200px;
-    border-radius: 100%;
-    padding: 0px 0px 0px 0px;
-}
+
 
 .fila2{
     
@@ -123,17 +119,9 @@ span{
     display: inline;
     margin-right: 50px;
 }
-.fotoLaura{
-    width: 200px;
-    border-radius: 100%;
-    padding: 10px 10px 10px 10px;
-}
 
-.fotoGracia{
-    width: 200px;
-    border-radius: 100%;
-    padding: 0px 0px 0px 0px;
-}
+
+
 
 /* */
 
