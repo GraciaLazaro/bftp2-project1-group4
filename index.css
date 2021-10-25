@@ -23,6 +23,9 @@ nav ul{
     padding-top: 25px;
     list-style: none;
 }
+li:hover {
+    font-weight: bold;
+  }
 
 .logotipo{
 margin-top: 250px;    
@@ -103,6 +106,7 @@ span{
     width: 250px;
     border-radius: 100%;
     padding: 0px 0px 0px 0px;
+    
 }
 
 
