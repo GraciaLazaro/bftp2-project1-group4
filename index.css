@@ -1,6 +1,11 @@
 *{
     width: auto; 
-    margin: auto;  
+    margin: auto; 
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 header{
@@ -42,63 +47,67 @@ flex-direction: row;
 h2{
     text-align: center;
     padding-top: 30px;
+    font-size: 30px;
+    color:#292929; 
 }
 
 .quienes {
-    background-color: grey;
+    background-color:#a8a8a8;
     height: 825px;
 }
 
 .pquienes{
     text-align:justify;
     padding: 10px 200px 0px 200px;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 35px;
     margin-bottom: 30px;
+    color:#404040;
 }
 
+/*pie de foto*/
+.parrafoposicion{
+    display: inline;
+    text-align: center;
+    color:#404040;
+    /*font-size: 20px;
+    font-weight: bold;*/
+}
+
+/*Nombres*/
 h3{
 text-align: center;
+color:#404040;
+margin-top:10px;
+
 }
 
+/*ICONOS*/
+span{
+    padding: 0px 0px 0px 0px;
+    margin: 0 auto;
+}
 
+/* fotos*/
+.fila1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .ana{
     display: flex;
     display: inline;
     margin-right: 50px;
-}
-.laura{
-    display: flex;
-    display: inline;
-    margin-right: 50px;
-    
-
 }
 .fotoAna{
     width: 200px;
     border-radius: 100%;
     padding: 0px 0px 0px 0px;
 }
-
-.parrafoposicion{
-    display: inline;
-    text-align: center;
-}
-
 .fotoValentina{
     width: 200px;
     border-radius: 100%;
     padding: 0px 0px 0px 0px;
-}
-
-span{
-    padding: 0px 0px 0px 0px;
-    margin: 0 auto;
-}
-.fila1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 .fila2{
@@ -109,7 +118,11 @@ span{
     margin-top: 20px; 
 }
 
-
+.laura{
+    display: flex;
+    display: inline;
+    margin-right: 50px;
+}
 .fotoLaura{
     width: 200px;
     border-radius: 100%;
@@ -121,6 +134,9 @@ span{
     border-radius: 100%;
     padding: 0px 0px 0px 0px;
 }
+
+/* */
+
 .servicios{
     background-color: white;
     height: 720px;
