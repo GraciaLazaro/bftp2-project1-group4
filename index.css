@@ -127,17 +127,15 @@ span{
 .quehacemos{
     background-color: white;
     height: 1200px;
-    width: 150px;
-    max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
+}
+
+.pquehacemos{
+    
 }
 
 .quehacemos .card{
     width: 330px;
-    height: 430;
+    height: 430px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
