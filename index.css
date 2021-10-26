@@ -130,7 +130,7 @@ span{
 }
 
 .pquehacemos{
-    
+    margin: 10px;
 }
 
 .quehacemos .card{
@@ -150,9 +150,10 @@ span{
 }
 
 .quehacemos .card img{
-    width: 330px;
-    height: 220px;
-}
+    width: 150px;
+   }
+
+
 
 .quehacemos .card h4{
     font-weight: 600;
