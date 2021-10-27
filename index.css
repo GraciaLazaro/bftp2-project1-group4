@@ -101,10 +101,14 @@ span{
     align-items: center;
 }
 
-.ana{
-    display: flex;
+.partners{
     display: inline;
-    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.partners a{
+    text-decoration: none;
+    color:#404040;
 }
 
 .fotocoder{
@@ -119,14 +123,6 @@ span{
     align-items: center; 
     margin-top: 20px; 
 }
-
-.laura{
-    display: flex;
-    display: inline;
-    margin-right: 50px;
-}
-
-
 
 .quehacemos{
     background-color: white;
@@ -180,7 +176,7 @@ span{
 
 h4{
     margin-bottom: 10px;
-    margin-top: 5px; 
+    margin-top: 5px;
 }
 
 .card:hover{
@@ -205,6 +201,7 @@ h4{
 }
 
 .ptarjetas{
+    margin-bottom: 5px;
     margin-bottom: 5px;
 }
 
