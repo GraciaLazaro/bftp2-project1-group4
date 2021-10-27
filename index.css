@@ -173,6 +173,10 @@ span{
     text-align: center;
     transition: all 0.25s;
 }
+h4 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
 
 .card:hover {
     transform: translateY(-15px);
