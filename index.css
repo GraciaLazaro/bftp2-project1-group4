@@ -176,6 +176,10 @@ span{
     transition: all 0.25s;
     background-color: white;
 }
+h4 {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
 
 .card:hover {
     transform: translateY(-15px);
