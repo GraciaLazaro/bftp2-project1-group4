@@ -26,6 +26,9 @@ nav ul{
 li:hover{
     font-weight: bold;
 }
+ a{
+    text-decoration:none;
+}
 
 .logotipo{
 margin-top: 250px;    
