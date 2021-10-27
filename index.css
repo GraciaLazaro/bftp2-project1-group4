@@ -130,6 +130,7 @@ span{
 .quehacemos{
     background-color: white;
     height: 1500px;
+    background-color:#ffffff ;
 }
 
 .pquehacemos{
@@ -139,6 +140,7 @@ span{
     line-height: 35px;
     margin-bottom: 30px;
     color:#404040; 
+    background-color:#ffffff;
 }
 
 .fila1proyectos{
@@ -172,6 +174,7 @@ span{
     margin-bottom: 30px;
     text-align: center;
     transition: all 0.25s;
+    background-color: white;
 }
 h4 {
     margin-bottom: 10px;

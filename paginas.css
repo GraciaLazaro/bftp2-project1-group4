@@ -32,5 +32,10 @@ span{
 } 
 
 .cruz{
-    width:50px; 
+    width:40px; 
+}
+
+.cruz{
+    display: flex; 
+    align-items: flex-start;
 }
