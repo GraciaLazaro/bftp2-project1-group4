@@ -16,7 +16,7 @@ header{
 nav ul{
     display: flex;
     justify-content: space-around;
-    flex-direction: row; 
+    flex-direction: row;
     /*align-items: center;*/
     margin: 0px 320px 0px 320px;
     padding-top: 25px;
@@ -25,6 +25,9 @@ nav ul{
 
 li:hover{
     font-weight: bold;
+}
+ a{
+    text-decoration:none;
 }
 
 .logotipo{
@@ -101,10 +104,14 @@ span{
     align-items: center;
 }
 
-.ana{
-    display: flex;
+.partners{
     display: inline;
-    margin-right: 50px;
+    flex-wrap: wrap;
+}
+
+.partners a{
+    text-decoration: none;
+    color:#404040;
 }
 
 .fotocoder{
@@ -119,14 +126,6 @@ span{
     align-items: center; 
     margin-top: 20px; 
 }
-
-.laura{
-    display: flex;
-    display: inline;
-    margin-right: 50px;
-}
-
-
 
 .quehacemos{
     background-color: white;
@@ -180,7 +179,7 @@ span{
 
 h4{
     margin-bottom: 10px;
-    margin-top: 5px; 
+    margin-top: 5px;
 }
 
 .card:hover{
@@ -206,6 +205,7 @@ h4{
 
 .ptarjetas{
     margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .card a{
@@ -215,7 +215,6 @@ h4{
     color:salmon;
 }
 
-
 footer{
     background-color: black;
     height: 600px; 
@@ -224,5 +223,3 @@ footer{
     padding-top: 30px;
     font-size: 30px;
 }
-
-
