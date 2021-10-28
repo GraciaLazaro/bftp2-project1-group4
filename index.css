@@ -243,11 +243,9 @@ footer{
 }
 
 .fservicios{
-    color: gray;
+    color:gray;
     font-size: 15px;
-    justify-content: left;
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top: 80px;
 }
 
 footer ul{
