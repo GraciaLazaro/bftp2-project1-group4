@@ -14,7 +14,8 @@ header{
 }
 
 .navbar{
-    position: sticky;
+    position: sticky; 
+    
 }
 nav ul{
     background-color: black;
