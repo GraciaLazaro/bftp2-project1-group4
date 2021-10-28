@@ -135,6 +135,12 @@ span{
     padding: 0px 0px 0px 0px;   
 }
 
+.fotocoder:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    overflow: hidden;
+}
+
 .fila2{
     display: flex;
     flex-direction: row;
