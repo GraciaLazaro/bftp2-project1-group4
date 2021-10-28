@@ -10,19 +10,37 @@ body{
 header{
     background-color: black;
     color:white; 
-    height: 720px;
+    height: 730px;
 }
 
 .navbar{
-    position: sticky; 
-    
+   overflow: hidden;
+   background-color: black;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100px;
 }
-nav ul{
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: gray;
+}
+
+.navbar ul{
     background-color: black;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    margin: 0px 320px 0px 320px;
+    margin: 0px 320px;
     padding-top: 25px;
     list-style: none;
 }
@@ -37,14 +55,15 @@ li:hover{
 
 .logotipo{
 display:flex;
-justify-content: center;    
+justify-content: center;   
 }
 
 .femcode-logo{
+
 width: 450px;
 display: flex;
 flex-direction: row;
-margin-top: 250px;
+margin-top: 170px;
 }
 
 .icon-chevron-down{
