@@ -16,7 +16,7 @@ header{
 .navbar{
    overflow: hidden;
    background-color: black;
-   position: fixed;
+   position: sticky;
    top: 0;
    left: 0;
    width: 100%;
@@ -98,30 +98,24 @@ h2{
     color:#404040;
 }
 
-/*pie de foto*/
 .parrafoposicion{
     display: inline;
     text-align: center;
     color:#404040;
-    /*font-size: 20px;
-    font-weight: bold;*/
 }
 
-/*Nombres*/
 h3{
 text-align: center;
 color:#404040;
 margin-top:10px;
 }
 
-/*ICONOS*/
 span{
     padding: 0px 0px 0px 0px;
     margin: 0 auto;
     text-decoration: none;
 }
 
-/* fotos*/
 .fila1{
     display: flex;
     flex-direction: row;
@@ -149,6 +143,11 @@ span{
     flex-direction: row;
     align-items: center; 
     margin-top: 20px; 
+}
+
+hr{
+    margin-top: 40px;
+    border: 2px solid #404040; 
 }
 
 .quehacemos{
@@ -239,11 +238,34 @@ h4{
     color:salmon;
 }
 
+
+
 footer{
     background-color: black;
-    height: 600px; 
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    font-size: 30px;
+    height: 1000px; 
 }
+
+.fservicios{
+    color: gray;
+    font-size: 15px;
+    justify-content: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+footer ul{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 320px;
+    padding-top: 250px;
+    list-style: none;
+}
+
+.icon-chevron-up{
+    margin-top: 250px;
+    display:flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
