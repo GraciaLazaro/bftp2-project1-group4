@@ -28,10 +28,10 @@ li:hover{
 }
  a{
     text-decoration:none;
+    color:white;
 }
 
 .logotipo{
-margin-top: 250px;    
 display:flex;
 justify-content: center;    
 }
@@ -40,6 +40,7 @@ justify-content: center;
 width: 450px;
 display: flex;
 flex-direction: row;
+margin-top: 250px;
 }
 
 .icon-chevron-down{
