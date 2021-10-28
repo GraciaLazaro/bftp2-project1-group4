@@ -13,11 +13,14 @@ header{
     height: 720px;
 }
 
+.navbar{
+    position: sticky;
+}
 nav ul{
+    background-color: black;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    /*align-items: center;*/
     margin: 0px 320px 0px 320px;
     padding-top: 25px;
     list-style: none;
