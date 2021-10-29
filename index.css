@@ -250,25 +250,23 @@ h4{
 
 footer{
     background-color: black;
-    height: 800px; 
+    height: 1100px; 
 }
 
 .fservicios{
     color:gray;
     font-size: 15px;
-    margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-
+    padding: 80px 400px 25px 400px;
 }
 
 footer ul{
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 320px;
+    justify-content: space-between;
+    margin: 100px;
     padding-top: 5px 300px 5px 300px;
     list-style: none;
     font-size: 25px;
