@@ -78,7 +78,7 @@ h2{
     color:#292929; 
 }
 
-.quienes {
+#quienes {
     background-color:#a8a8a8;
     height: 900px;
 }
@@ -151,11 +151,6 @@ span{
     flex-direction: row;
     align-items: center; 
     margin-top: 20px; 
-}
-
-hr{
-    margin-top: 40px;
-    border: 2px solid #404040; 
 }
 
 .quehacemos{
