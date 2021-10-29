@@ -48,14 +48,14 @@ header{
     color:white;
 }
 
-.logotipo{
-    justify-content: center;   
+#logotipo{
+    display: flex;
+    justify-content: center;
+
 }
 
 .femcode-logo{
 width: 400px;
-display: flex;
-flex-wrap: wrap;
 }
 
 .icon-chevron-down{
@@ -79,7 +79,7 @@ h2{
 
 #quienes {
     background-color:#a8a8a8;
-    height: 1000px;
+    height: 1100px;
 }
 
 .pquienes{
@@ -245,7 +245,7 @@ footer{
     font-size: 15px;
     display: flex;
     flex-wrap: wrap;
-    padding: 80px 400px 25px 400px;
+    justify-content: space-evenly;
 }
 
 footer ul{
