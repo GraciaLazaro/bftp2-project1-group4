@@ -81,7 +81,7 @@ h2{
     color:#292929; 
 }
 
-.quienes {
+.quienes{
     background-color:gray;
     height: 900px;
 }
@@ -245,11 +245,11 @@ h4{
 
 footer{
     background-color: black;
-    height: 1500px; 
+    height: 700px; 
 }
 
 .fservicios{
-    color:gray;
+    color: gray;
     font-size: 15px;
     margin-top: 80px;
 }
@@ -276,3 +276,6 @@ span:hover{
     font-size: 35px;
 }
 
+.copy {
+    text-align: center;
+}
