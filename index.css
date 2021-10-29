@@ -16,16 +16,13 @@ header{
 .navbar{
    overflow: hidden;
    background-color: black;
-   position: sticky;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100px;
+   margin-bottom: 250px;
 }
 
 .navbar a{
     float: left;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     color: white;
     text-align: center;
     padding: 5px 5px;
@@ -40,6 +37,7 @@ header{
 .navbar ul{
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 0px 320px;
     padding-top: 25px;
@@ -52,20 +50,19 @@ header{
 }
 
 .logotipo{
-display:flex;
-justify-content: center;   
+    justify-content: center;   
 }
 
 .femcode-logo{
-width: 450px;
+width: 400px;
 display: flex;
-flex-direction: row;
-margin-top: 170px;
+flex-wrap: wrap;
 }
 
 .icon-chevron-down{
     margin-top: 250px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 35px;
 }
@@ -87,6 +84,8 @@ h2{
 }
 
 .pquienes{
+    display: flex;
+    flex-wrap: wrap;
     text-align:justify;
     padding: 10px 200px 0px 200px;
     font-size: 25px;
@@ -96,6 +95,8 @@ h2{
 }
 
 .parrafoposicion{
+    display: flex;
+    flex-wrap: wrap;
     display: inline;
     text-align: center;
     color:#404040;
@@ -115,6 +116,7 @@ span{
 
 .fila1{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
 }
@@ -130,6 +132,8 @@ span{
 }
 
 .fotocoder{
+    display: flex;
+    flex-wrap: wrap;
     width: 250px;
     border-radius: 100%;
     padding: 0px 0px 0px 0px;   
@@ -143,6 +147,7 @@ span{
 
 .fila2{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center; 
     margin-top: 20px; 
@@ -160,6 +165,8 @@ hr{
 }
 
 .pquehacemos{
+    display: flex;
+    flex-wrap: wrap;
     text-align:justify;
     padding: 30px 200px 50px 200px;
     font-size: 25px;
@@ -171,6 +178,7 @@ hr{
 
 .fila1proyectos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -178,6 +186,7 @@ hr{
 
 .fila2proyectos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;   
@@ -185,6 +194,7 @@ hr{
 
 .fila3proyectos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
@@ -245,21 +255,26 @@ h4{
 
 footer{
     background-color: black;
-    height: 1500px; 
+    height: 800px; 
 }
 
 .fservicios{
     color:gray;
     font-size: 15px;
     margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
 }
 
 footer ul{
     background-color: black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0px 320px;
-    padding-top: 50px;
+    margin: 320px;
+    padding-top: 5px 300px 5px 300px;
     list-style: none;
     font-size: 25px;
 }
@@ -267,12 +282,18 @@ footer ul{
 span:hover{
     font-weight: bold;
     color: gray;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .icon-chevron-up{
-    margin-top: 250px;
+    margin-top: 50px;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 35px;
 }
+
+
+
 
